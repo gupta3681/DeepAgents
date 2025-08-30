@@ -1,9 +1,15 @@
 [project]
-name = "deepagents"
+name = "deepagents-project"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
+    "deepagents>=0.0.4",
+    "dotenv>=0.9.9",
+    "langchain-openai>=0.3.32",
     "langgraph>=0.6.6",
+    "langgraph-api>=0.4.7",
+    "langgraph-cli>=0.4.0",
+    "tavily-python>=0.7.11",
 ]
